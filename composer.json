@@ -1,0 +1,11 @@
+{
+    "name": "rrzu/open-search",
+    "description": "rrzu/open-search php sdk",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "open-search\\": "src/"
+        }
+    },
+    "require": {}
+}
