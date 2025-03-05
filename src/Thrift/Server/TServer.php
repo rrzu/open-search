@@ -1,9 +1,9 @@
 <?php
 
-namespace Thrift\Server;
+namespace OpenSearch\Thrift\Server;
 
-use Thrift\Factory\TTransportFactory;
-use Thrift\Factory\TProtocolFactory;
+use OpenSearch\Thrift\Factory\TTransportFactory;
+use OpenSearch\Thrift\Factory\TProtocolFactory;
 
 /**
  * Generic class for a Thrift server.

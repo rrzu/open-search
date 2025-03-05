@@ -1,10 +1,10 @@
 <?php
 
-namespace Thrift\Server;
+namespace OpenSearch\Thrift\Server;
 
-use Thrift\Transport\TTransport;
-use Thrift\Exception\TException;
-use Thrift\Exception\TTransportException;
+use OpenSearch\Thrift\Transport\TTransport;
+use OpenSearch\Thrift\Exception\TException;
+use OpenSearch\Thrift\Exception\TTransportException;
 
 /**
  * A forking implementation of a Thrift server.

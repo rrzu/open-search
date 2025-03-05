@@ -20,10 +20,10 @@
  * @package thrift.transport
  */
 
-namespace Thrift\Transport;
+namespace OpenSearch\Thrift\Transport;
 
-use Thrift\Exception\TTransportException;
-use Thrift\Factory\TStringFuncFactory;
+use OpenSearch\Thrift\Exception\TTransportException;
+use OpenSearch\Thrift\Factory\TStringFuncFactory;
 
 /**
  * HTTP client for Thrift
@@ -188,7 +188,7 @@ class TCurlClient extends TTransport
   public function flush()
   {
     if (!self::$curlHandle) {
-      register_shutdown_function(array('Thrift\\Transport\\TCurlClient', 'closeCurlHandle'));
+      register_shutdown_function(array('OpenSearch\Thrift\\Transport\\TCurlClient', 'closeCurlHandle'));
       self::$curlHandle = curl_init();
       curl_setopt(self::$curlHandle, CURLOPT_RETURNTRANSFER, true);
       curl_setopt(self::$curlHandle, CURLOPT_BINARYTRANSFER, true);

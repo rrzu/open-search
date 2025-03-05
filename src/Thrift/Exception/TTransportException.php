@@ -20,7 +20,7 @@
  * @package thrift.transport
  */
 
-namespace Thrift\Exception;
+namespace OpenSearch\Thrift\Exception;
 
 /**
  * Transport exceptions

@@ -20,8 +20,8 @@
  * @package thrift.protocol
  */
 
-namespace Thrift\Protocol;
-use Thrift\Exception\TException;
+namespace OpenSearch\Thrift\Protocol;
+use OpenSearch\Thrift\Exception\TException;
 
 /**
  * <code>TProtocolDecorator</code> forwards all requests to an enclosed
@@ -30,7 +30,7 @@ use Thrift\Exception\TException;
  * is marked abstract as a reminder that by itself, it does not modify
  * the behaviour of the enclosed <code>TProtocol</code>.
  *
- * @package Thrift\Protocol
+ * @package OpenSearch\Thrift\Protocol
  */
 abstract class TProtocolDecorator extends TProtocol
 {

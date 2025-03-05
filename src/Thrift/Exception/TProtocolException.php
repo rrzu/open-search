@@ -21,7 +21,7 @@
  * @author: rmarin (marin.radu@facebook.com)
  */
 
-namespace Thrift\Exception;
+namespace OpenSearch\Thrift\Exception;
 
 /**
  * Protocol module. Contains all the types and definitions needed to implement

@@ -20,7 +20,7 @@
  * @package thrift.protocol
  */
 
-namespace Thrift\Protocol\SimpleJSON;
+namespace OpenSearch\Thrift\Protocol\SimpleJSON;
 
 class Context
 {

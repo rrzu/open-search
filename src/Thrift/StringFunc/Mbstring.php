@@ -19,7 +19,7 @@
  *
  */
 
-namespace Thrift\StringFunc;
+namespace OpenSearch\Thrift\StringFunc;
 
 class Mbstring implements TStringFunc
 {

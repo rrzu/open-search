@@ -20,9 +20,9 @@
  * @package thrift.protocol
  */
 
-namespace Thrift\Factory;
+namespace OpenSearch\Thrift\Factory;
 
-use Thrift\Protocol\TJSONProtocol;
+use OpenSearch\Thrift\Protocol\TJSONProtocol;
 
 /**
  * JSON Protocol Factory

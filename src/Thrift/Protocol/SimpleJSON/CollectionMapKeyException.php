@@ -20,9 +20,9 @@
  * @package thrift.protocol
  */
 
-namespace Thrift\Protocol\SimpleJSON;
+namespace OpenSearch\Thrift\Protocol\SimpleJSON;
 
-use Thrift\Exception\TException;
+use OpenSearch\Thrift\Exception\TException;
 
 class CollectionMapKeyException extends TException
 {

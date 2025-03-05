@@ -21,11 +21,11 @@
  * @author: rmarin (marin.radu@facebook.com)
  */
 
-namespace Thrift\Serializer;
+namespace OpenSearch\Thrift\Serializer;
 
-use Thrift\Transport\TMemoryBuffer;
-use Thrift\Protocol\TBinaryProtocolAccelerated;
-use Thrift\Type\TMessageType;
+use OpenSearch\Thrift\Transport\TMemoryBuffer;
+use OpenSearch\Thrift\Protocol\TBinaryProtocolAccelerated;
+use OpenSearch\Thrift\Type\TMessageType;
 
 /**
  * Utility class for serializing and deserializing

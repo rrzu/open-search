@@ -20,9 +20,9 @@
  * @package thrift.transport
  */
 
-namespace Thrift\Transport;
+namespace OpenSearch\Thrift\Transport;
 
-use Thrift\Factory\TStringFuncFactory;
+use OpenSearch\Thrift\Factory\TStringFuncFactory;
 
 /**
  * Base interface for a transport agent.

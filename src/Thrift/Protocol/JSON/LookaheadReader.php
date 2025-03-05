@@ -20,7 +20,7 @@
  * @package thrift.protocol
  */
 
-namespace Thrift\Protocol\JSON;
+namespace OpenSearch\Thrift\Protocol\JSON;
 
 class LookaheadReader
 {

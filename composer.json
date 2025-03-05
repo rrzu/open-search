@@ -1,10 +1,10 @@
 {
-    "name": "rrzu/open-search",
-    "description": "rrzu/open-search php sdk",
+    "name": "nelsonkti/open-search",
+    "description": "nelsonkti/open-search php sdk",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Opensearchsdk\\Opensearchapi\\": "src/"
+            "OpenSearch\\": "src"
         }
     },
     "require": {}

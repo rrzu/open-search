@@ -20,11 +20,11 @@
  * @package thrift.protocol
  */
 
-namespace Thrift\Protocol;
+namespace OpenSearch\Thrift\Protocol;
 
-use Thrift\Type\TType;
-use Thrift\Exception\TProtocolException;
-use Thrift\Factory\TStringFuncFactory;
+use OpenSearch\Thrift\Type\TType;
+use OpenSearch\Thrift\Exception\TProtocolException;
+use OpenSearch\Thrift\Factory\TStringFuncFactory;
 
 /**
  * Binary implementation of the Thrift protocol.

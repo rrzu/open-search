@@ -20,9 +20,9 @@
  * @package thrift.transport
  */
 
-namespace Thrift\Transport;
+namespace OpenSearch\Thrift\Transport;
 
-use Thrift\Factory\TStringFuncFactory;
+use OpenSearch\Thrift\Factory\TStringFuncFactory;
 
 /**
  * Framed transport. Writes and reads data in chunks that are stamped with

@@ -7,14 +7,14 @@ namespace OpenSearch\Generated\SecondRank;
  * DO NOT EDIT UNLESS YOU ARE SURE THAT YOU KNOW WHAT YOU ARE DOING
  *  @generated
  */
-use Thrift\Base\TBase;
-use Thrift\Type\TType;
-use Thrift\Type\TMessageType;
-use Thrift\Exception\TException;
-use Thrift\Exception\TProtocolException;
-use Thrift\Protocol\TProtocol;
-use Thrift\Protocol\TBinaryProtocolAccelerated;
-use Thrift\Exception\TApplicationException;
+use OpenSearch\Thrift\Base\TBase;
+use OpenSearch\Thrift\Type\TType;
+use OpenSearch\Thrift\Type\TMessageType;
+use OpenSearch\Thrift\Exception\TException;
+use OpenSearch\Thrift\Exception\TProtocolException;
+use OpenSearch\Thrift\Protocol\TProtocol;
+use OpenSearch\Thrift\Protocol\TBinaryProtocolAccelerated;
+use OpenSearch\Thrift\Exception\TApplicationException;
 
 
 class SecondRank {

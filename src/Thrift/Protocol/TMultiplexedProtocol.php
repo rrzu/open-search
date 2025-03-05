@@ -20,16 +20,16 @@
  * @package thrift.protocol
  */
 
-namespace Thrift\Protocol;
+namespace OpenSearch\Thrift\Protocol;
 
-use Thrift\Type\TMessageType;
+use OpenSearch\Thrift\Type\TMessageType;
 
 /**
  * <code>TMultiplexedProtocol</code> is a protocol-independent concrete decorator
  * that allows a Thrift client to communicate with a multiplexing Thrift server,
  * by prepending the service name to the function name during function calls.
  *
- * @package Thrift\Protocol
+ * @package OpenSearch\Thrift\Protocol
  */
 class TMultiplexedProtocol extends TProtocolDecorator
 {
